@@ -27,8 +27,8 @@ public class SkierController {
     }
 
     // Get number of unique skiers at resort/season/day
-    @GetMapping("/resorts/{resortID}/seasons/{seasonID}/day/{dayID}/skiers")
-    public ResortSkiers getNumOfSkiersByResortAndSeasonAndDay(@PathVariable int resortID, @PathVariable int dayID, @PathVariable int seasonID){
-        return skierLiftRideEventService.getNumOfSkiersByResortIdAndSeasonIdAndDayId(resortID,String.valueOf(dayID),String.valueOf(seasonID));
-    }
+//    @GetMapping("/resorts/{resortID}/seasons/{seasonID}/day/{dayID}/skiers")
+//    public ResortSkiers getNumOfSkiersByResortAndSeasonAndDay(@PathVariable int resortID, @PathVariable int dayID, @PathVariable int seasonID){
+//        return skierLiftRideEventService.getNumOfSkiersByResortIdAndSeasonIdAndDayId(resortID,String.valueOf(dayID),String.valueOf(seasonID));
+//    }
 }
